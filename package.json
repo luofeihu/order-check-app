@@ -6,9 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test":"husky install",
-    "husky":"husky",
-    "lint-staged":"lint-staged"
+    "test": "husky install",
+    "husky": "husky",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -16,12 +16,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "lint-staged" 
+      "pre-commit": "echo \"lint-staged\"",
+      "pre-push": "lint-staged"
     }
   },
   "lint-staged": {
-    "src/**/*.{js,vue}": [ 
+    "src/**/*.{js,vue}": [
       "prettier --write",
       "eslint --cache --fix"
     ]
