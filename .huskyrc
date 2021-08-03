@@ -1,0 +1,6 @@
+{
+      "hooks": {
+      "pre-commit": "echo \" ttt================>\"&&eslint",
+      "pre-push": "lint-staged" 
+    }
+}
