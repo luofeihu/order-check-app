@@ -7,10 +7,10 @@ new Vue({
   render: h => h(App),
 }).$mount('#app')
 let s = ""
-if (s == 1) {
+if (s === 1) {
   console.log('err')
 
 }
 
-let s2='1'
-let s3='2'
+let s2='12'
+let s3='34'
