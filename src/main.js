@@ -9,5 +9,7 @@ new Vue({
 let s = ""
 if (s == 1) {
   console.log('err')
+
 }
 
+let s2='1'

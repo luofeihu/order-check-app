@@ -13,13 +13,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
+   "pre-commit": "echo \"git commit trigger husky pre-commit hook\" ",
       "pre-push": "lint-staged" 
     }
   },
   "lint-staged": {
-    "src/**/*.{js,vue}": [
-      "eslint" 
+    "src/**/*.{js,vue}": [ 
+      "prettier --write",
+      "eslint --cache --fix"
     ]
   },
   "devDependencies": {
