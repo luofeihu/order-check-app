@@ -1,16 +1,15 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
-let s = ""
-if (s === 1) {
-  console.log('err')
-
+  render: h => h(App)
+}).$mount("#app");
+let s = "";
+if (s == 1) {
+  console.log("err");
 }
 
-let s2='12'
-let s3='34'
+// let s2='12'
+// let s3='34'
