@@ -11,5 +11,5 @@ if (s == 1) {
   console.log("err");
 }
 
-  let s2='123'
+  let s2='1234'
 // let s3='34'
